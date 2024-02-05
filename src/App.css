@@ -67,3 +67,13 @@
   
   background-color: rgb(184, 74, 23)!important;
 }
+.contact-title{
+  text-align: center!important;
+  font-weight: bold;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+.login-form-button{
+  background-color: azure;
+  color:darkgreen;
+}
