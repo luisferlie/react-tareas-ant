@@ -1,10 +1,15 @@
-.App {
-  text-align: center;
+.task-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: darkblue;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.task-list ul li {
+  list-style-type: none;
+}
+.test {
+  width: 120%;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -35,4 +40,30 @@
   to {
     transform: rotate(360deg);
   }
+}
+.block {
+  background-image: url('images/Aves.jpg');
+  background-size: cover;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  margin: auto;
+  border-radius: 5%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.collase {
+  width: 50%;
+  margin: auto;
+}
+.fondo-collapse{
+  width: 30%;
+  margin: auto;
+  background-color: rgb(198, 198, 240);
+}
+.fondo-collapse:first-child:first-child:first-child{
+  
+  background-color: rgb(184, 74, 23)!important;
 }
